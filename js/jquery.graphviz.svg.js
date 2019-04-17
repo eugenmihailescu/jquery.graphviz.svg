@@ -424,10 +424,10 @@ export default function ($) {
   GraphvizSvg.prototype.linked = function (node, includeEdges) {
     var $retval = $()
     this.findLinked(node, includeEdges, function (nodeName, edgeName) {
-      return '^' + name + '--(.*)$'
+      return '^' + nodeName + '--(.*)$'
     }, $retval)
     this.findLinked(node, includeEdges, function (nodeName, edgeName) {
-      return '^(.*)--' + name + '$'
+      return '^(.*)--' + nodeName + '$'
     }, $retval)
     return $retval
   }
