@@ -81,7 +81,7 @@ export default function ($) {
         return col
       },
       unselected: function (col, bg) {
-        return jQuery.Color(col).transition(bg, 0.9)
+        return $.Color(col).transition(bg, 0.9)
       }
     },
     ready: null
@@ -452,7 +452,7 @@ export default function ($) {
 
   GraphvizSvg.prototype.sendToBack = function ($elements) {
     if (this.$background.length) {
-      $element.insertAfter(this.$background)
+      $elements.insertAfter(this.$background)
     } else {
       $elements.detach().prependTo(this.$graph)
     }
