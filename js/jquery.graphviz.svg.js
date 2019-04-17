@@ -21,7 +21,7 @@
  */
 
 
-(function ($) {
+export default function ($) {
   // GRAPHVIZSVG PUBLIC CLASS DEFINITION
   // ===================================
 
@@ -519,4 +519,4 @@
     return this
   }
 
-})(jQuery)
+}

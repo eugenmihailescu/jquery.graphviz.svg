@@ -1,6 +1,6 @@
 {
   "name": "jquery.graphviz.svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jquery plugin to make graphviz svg charts responsive",
   "main": "js/jquery.graphviz.svg.js",
   "scripts": {
