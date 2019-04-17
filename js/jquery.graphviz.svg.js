@@ -21,7 +21,7 @@
  */
 
 
- +function ($) {
+function ($) {
   'use strict'
 
   // Cross Browser starts/endsWith support
