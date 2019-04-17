@@ -1,0 +1,25 @@
+{
+  "name": "jquery.graphviz.svg",
+  "version": "1.0.0",
+  "description": "jquery plugin to make graphviz svg charts responsive",
+  "main": "js/jquery.graphviz.svg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenmihailescu/jquery.graphviz.svg.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "graphviz",
+    "svg"
+  ],
+  "author": "github.com/mountainstorm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugenmihailescu/jquery.graphviz.svg/issues"
+  },
+  "homepage": "https://github.com/eugenmihailescu/jquery.graphviz.svg#readme"
+}
