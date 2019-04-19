@@ -370,11 +370,13 @@ export default function ($) {
     $el.find('polygon, ellipse, path').each(function() {
       var $this = $(this)
       var color = $this.data('graphviz.svg.color')
-      if (color.fill) {
-        $this.attr('fill', color.fill) // don't set  fill if it's a path
-      }
-      if (color.stroke) {
-        $this.attr('stroke', color.stroke)
+      if(color){
+        if (color.fill) {
+          $this.attr('fill', color.fill) // don't set  fill if it's a path
+        }
+        if (color.stroke) {
+          $this.attr('stroke', color.stroke)
+        }
       }
     })
   }
